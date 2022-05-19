@@ -10,4 +10,5 @@
     }
     //Seleciona o banco desejado
     mysqli_select_db($conexao,"games_db");
+    
 ?>

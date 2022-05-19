@@ -11,6 +11,7 @@
         <h1>Alterar categoria</h1>
         Selecione uma categoria:
         <?php
+        
             //Fazendo a conexão - importando a página connect
             require("connect.php");
             //Pesquisando as categorias cadastradas no banco

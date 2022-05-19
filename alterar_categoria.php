@@ -7,6 +7,7 @@
     //Importando a conexao
     require("connect.php");
 
+    
     //Criando a SQL de pesquisa
     $sql_pesquisa = 
     "SELECT * FROM `categoria` WHERE `descricao_categoria` = '$novo_texto'";

@@ -14,6 +14,7 @@
     //Obtendo o numero de linhas retornadas na pesquisa
     $numero_resultado = mysqli_num_rows($resultado_pesquisa);
 
+    
     if($numero_resultado == 0)
     {
         ?>

@@ -15,6 +15,7 @@
 		<select name="categoria_livro">
 			<option>Selecione..</option>
 			<?php
+			
 				//Importando a página de connect
 				require("connect.php");
 

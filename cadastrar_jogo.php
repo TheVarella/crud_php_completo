@@ -11,6 +11,7 @@
     //Gerando a SQL de PESQUISA do nome do jogo
     $pesquisar_nome = "SELECT * FROM `jogos` WHERE nome_jogo = '$nome_jogo'";
 
+    
     //Executando a SQL de pesquisa do nome do jogo
     $resultado_nome = mysqli_query($conexao, $pesquisar_nome);
 

@@ -9,6 +9,7 @@
     //Gerando a SQL de PESQUISA 
     $pesquisar_descricao = "SELECT * FROM `categoria` WHERE descricao_categoria = '$descricao'";
 
+    
     //Executando a SQL
     $resultado_descricao = mysqli_query($conexao, $pesquisar_descricao);
 

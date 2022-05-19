@@ -15,6 +15,7 @@
                 <td>categoria</td>
                 <td>Selecionar</td>
             </tr>
+            
             <?php
                 //Conexão com o banco
                 require("connect.php");
